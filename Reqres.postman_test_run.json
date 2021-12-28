@@ -1,0 +1,1047 @@
+{
+	"id": "9d9c3fd3-8c01-46f6-9a93-e9542dc9ea6f",
+	"name": "Reqres",
+	"timestamp": "2021-12-26T20:06:57.189Z",
+	"collection_id": "15909943-df749b4c-6800-472f-9d17-d70d29b17670",
+	"folder_id": 0,
+	"environment_id": "ff104323-3879-4fd7-92ac-6c3e43fe34ef",
+	"totalPass": 109,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8c8e6c34-f6a7-4021-890b-af249f903d85",
+			"name": "Check users list",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Data contains id=7": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response must be json": true,
+				"Response data contains an array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data contains id=7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data contains an array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Data contains id=7": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response must be json": true,
+					"Response data contains an array": true
+				}
+			]
+		},
+		{
+			"id": "3160ce68-aa9d-4fbf-b8c4-d5547bd51be0",
+			"name": "Single user case",
+			"url": "https://reqres.in/api/users/2",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Data contains id=2": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response must be json": true,
+				"Person is Janet Weaver": true,
+				"Response data is object": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Data contains id=2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Person is Janet Weaver": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data is object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Data contains id=2": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response must be json": true,
+					"Person is Janet Weaver": true,
+					"Response data is object": true
+				}
+			]
+		},
+		{
+			"id": "23149cda-580b-4f45-a015-ac26b7c1ea76",
+			"name": "Single user not found",
+			"url": "https://reqres.in/api/users/23",
+			"time": 212,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name is Not Found": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 300ms": true,
+				"Response data is undefined": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is Not Found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data is undefined": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				212
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name is Not Found": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 300ms": true,
+					"Response data is undefined": true
+				}
+			]
+		},
+		{
+			"id": "ce42352b-2c00-4cd1-a37b-47b37ef4d484",
+			"name": "Check pantone colors list",
+			"url": "https://reqres.in/api/unknown",
+			"time": 214,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "f3c7137f-69e0-4fe8-a1b4-e705c6c9deee",
+			"name": "Single pantone color case",
+			"url": "https://reqres.in/api/unknown/2",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "529782a9-af7d-4f8a-b438-cd1219bf68d5",
+			"name": "Single pantone color not found",
+			"url": "https://reqres.in/api/unknown/23",
+			"time": 205,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name is Not Found": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response data is undefined": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is Not Found": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response data is undefined": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name is Not Found": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response data is undefined": true
+				}
+			]
+		},
+		{
+			"id": "070e02e9-43c1-4bcf-bdda-285731f404b0",
+			"name": "Delayed response",
+			"url": "https://reqres.in/api/users?delay=4",
+			"time": 4227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 5000ms": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 5000ms": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "e031bf55-8de8-48d1-8a2a-b4478ceb9536",
+			"name": "Create user",
+			"url": "https://reqres.in/api/users",
+			"time": 215,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status code name is Created": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Successful POST request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is Created": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status code name is Created": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Successful POST request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "545bfc57-b3a7-4c62-8576-ef46a35cc989",
+			"name": "Successful register",
+			"url": "https://reqres.in/api/register",
+			"time": 150,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 700ms": true,
+				"Successful POST request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				150
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 700ms": true,
+					"Successful POST request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "e790c9a1-87ad-458e-9617-156ec20817ef",
+			"name": "Unsuccessful register",
+			"url": "https://reqres.in/api/register",
+			"time": 151,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name is Bad Request": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Unsuccessful POST request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Unsuccessful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name is Bad Request": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Unsuccessful POST request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "e8045de1-78bc-479f-83e2-f0126ae9711b",
+			"name": "Successful login",
+			"url": "https://reqres.in/api/login",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Successful POST request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Successful POST request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "6a467cc6-9ce3-41f2-ba24-a8263bbbecc1",
+			"name": "Unsuccessful login",
+			"url": "https://reqres.in/api/login",
+			"time": 124,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Status code name is Bad Request": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Unsuccessful POST request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is Bad Request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Unsuccessful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Status code name is Bad Request": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Unsuccessful POST request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "c8648fd7-758b-4432-874e-256263cd3122",
+			"name": "Update user",
+			"url": "https://reqres.in/api/users/2",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "d8029f24-f71b-4731-9f3c-47c72349a97f",
+			"name": "Another update user case",
+			"url": "https://reqres.in/api/users/2",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status code name is OK": true,
+				"Body matches string": true,
+				"Content-Type is present": true,
+				"Connection is present": true,
+				"Response time is less than 1000ms": true,
+				"Successful PATCH request": true,
+				"Response must be json": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful PATCH request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response must be json": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status code name is OK": true,
+					"Body matches string": true,
+					"Content-Type is present": true,
+					"Connection is present": true,
+					"Response time is less than 1000ms": true,
+					"Successful PATCH request": true,
+					"Response must be json": true
+				}
+			]
+		},
+		{
+			"id": "6d619294-5821-428d-9567-6eafc76aefce",
+			"name": "Delete case",
+			"url": "https://reqres.in/api/users/2",
+			"time": 147,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Status code name is No Content": true,
+				"Connection is present": true,
+				"Response time is less than 500ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name is No Content": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				147
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Status code name is No Content": true,
+					"Connection is present": true,
+					"Response time is less than 500ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6441,
+	"collection": {
+		"requests": [
+			{
+				"id": "8c8e6c34-f6a7-4021-890b-af249f903d85",
+				"method": "GET"
+			},
+			{
+				"id": "3160ce68-aa9d-4fbf-b8c4-d5547bd51be0",
+				"method": "GET"
+			},
+			{
+				"id": "23149cda-580b-4f45-a015-ac26b7c1ea76",
+				"method": "GET"
+			},
+			{
+				"id": "ce42352b-2c00-4cd1-a37b-47b37ef4d484",
+				"method": "GET"
+			},
+			{
+				"id": "f3c7137f-69e0-4fe8-a1b4-e705c6c9deee",
+				"method": "GET"
+			},
+			{
+				"id": "529782a9-af7d-4f8a-b438-cd1219bf68d5",
+				"method": "GET"
+			},
+			{
+				"id": "070e02e9-43c1-4bcf-bdda-285731f404b0",
+				"method": "GET"
+			},
+			{
+				"id": "e031bf55-8de8-48d1-8a2a-b4478ceb9536",
+				"method": "POST"
+			},
+			{
+				"id": "545bfc57-b3a7-4c62-8576-ef46a35cc989",
+				"method": "POST"
+			},
+			{
+				"id": "e790c9a1-87ad-458e-9617-156ec20817ef",
+				"method": "POST"
+			},
+			{
+				"id": "e8045de1-78bc-479f-83e2-f0126ae9711b",
+				"method": "POST"
+			},
+			{
+				"id": "6a467cc6-9ce3-41f2-ba24-a8263bbbecc1",
+				"method": "POST"
+			},
+			{
+				"id": "c8648fd7-758b-4432-874e-256263cd3122",
+				"method": "PUT"
+			},
+			{
+				"id": "d8029f24-f71b-4731-9f3c-47c72349a97f",
+				"method": "PATCH"
+			},
+			{
+				"id": "6d619294-5821-428d-9567-6eafc76aefce",
+				"method": "DELETE"
+			}
+		]
+	}
+}
