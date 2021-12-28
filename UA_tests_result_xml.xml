@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UA tests" tests="25" time="233.930">
+  <testsuite name="1 inspection page" id="3582f606-449f-4b69-842c-179312c59b32" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="8.330">
+    <testcase name="Status code is 200" time="8.330" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="8.330" classname="UaTests"/>
+    <testcase name="Connection is present" time="8.330" classname="UaTests"/>
+    <testcase name="Response time is less than 10000ms" time="8.330" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="8.330" classname="UaTests"/>
+    <testcase name="Status code name has string" time="8.330" classname="UaTests"/>
+    <testcase name="Response must be json" time="8.330" classname="UaTests"/>
+    <testcase name="Body text not include error" time="8.330" classname="UaTests"/>
+    <testcase name="Response must have a body" time="8.330" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="19487 inspection page" id="7a8616fb-dbfd-4c6e-9902-6970e4523869" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="15.388">
+    <testcase name="Status code is 200" time="15.388" classname="UaTests"/>
+    <testcase name="Response time is less than 20000ms" time="15.388" classname="UaTests"/>
+    <testcase name="Status code name has string" time="15.388" classname="UaTests"/>
+    <testcase name="Response must be json" time="15.388" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="15.388" classname="UaTests"/>
+    <testcase name="Connection is present" time="15.388" classname="UaTests"/>
+    <testcase name="Body text not include error" time="15.388" classname="UaTests"/>
+    <testcase name="Response must have a body" time="15.388" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="15.388" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="10201 inspection page" id="ba979ce2-146c-4bb4-9b35-d34571d7b936" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="9.485">
+    <testcase name="Status code is 200" time="9.485" classname="UaTests"/>
+    <testcase name="Response time is less than 11000ms" time="9.485" classname="UaTests"/>
+    <testcase name="Status code name has string" time="9.485" classname="UaTests"/>
+    <testcase name="Response must be json" time="9.485" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="9.485" classname="UaTests"/>
+    <testcase name="Connection is present" time="9.485" classname="UaTests"/>
+    <testcase name="Body text not include error" time="9.485" classname="UaTests"/>
+    <testcase name="Response must have a body" time="9.485" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="9.485" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="19615 inspection page Error" id="44a6ea07-419e-4504-aae0-6727cc381e71" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="0" errors="0" time="15.848">
+    <testcase name="Status code is 404" time="15.848" classname="UaTests"/>
+    <testcase name="Response time is less than 18000ms" time="15.848" classname="UaTests"/>
+    <testcase name="Status code name has string" time="15.848" classname="UaTests"/>
+    <testcase name="Response must be json" time="15.848" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="15.848" classname="UaTests"/>
+    <testcase name="Connection is present" time="15.848" classname="UaTests"/>
+    <testcase name="Body text include error" time="15.848" classname="UaTests"/>
+    <testcase name="Response must have a body" time="15.848" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="0 inspection page Error" id="bbadd6d4-2fac-4ee1-8234-0f7dcffcbf63" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="0" errors="0" time="6.967">
+    <testcase name="Status code is 500" time="6.967" classname="UaTests"/>
+    <testcase name="Response time is less than 15000ms" time="6.967" classname="UaTests"/>
+    <testcase name="Status code name has string" time="6.967" classname="UaTests"/>
+    <testcase name="Response must be json" time="6.967" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="6.967" classname="UaTests"/>
+    <testcase name="Connection is present" time="6.967" classname="UaTests"/>
+    <testcase name="Body text include error" time="6.967" classname="UaTests"/>
+    <testcase name="Response must have a body" time="6.967" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Page Size 50" id="3f06aafd-806a-4929-afca-25df74fc1cce" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="7.728">
+    <testcase name="Status code is 200" time="7.728" classname="UaTests"/>
+    <testcase name="Response time is less than 10000ms" time="7.728" classname="UaTests"/>
+    <testcase name="Status code name has string" time="7.728" classname="UaTests"/>
+    <testcase name="Response must be json" time="7.728" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="7.728" classname="UaTests"/>
+    <testcase name="Connection is present" time="7.728" classname="UaTests"/>
+    <testcase name="Body text not include error" time="7.728" classname="UaTests"/>
+    <testcase name="Response must have a body" time="7.728" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="7.728" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Page Size 1" id="b62e0a0f-f1f9-4379-b926-87db545cc53e" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="7.119">
+    <testcase name="Status code is 200" time="7.119" classname="UaTests"/>
+    <testcase name="Response time is less than 9000ms" time="7.119" classname="UaTests"/>
+    <testcase name="Status code name has string" time="7.119" classname="UaTests"/>
+    <testcase name="Response must be json" time="7.119" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="7.119" classname="UaTests"/>
+    <testcase name="Connection is present" time="7.119" classname="UaTests"/>
+    <testcase name="Body text not include error" time="7.119" classname="UaTests"/>
+    <testcase name="Response must have a body" time="7.119" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="7.119" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Page Size 25" id="bbaa5f43-8076-4873-b887-50788c8c53af" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="8.350">
+    <testcase name="Status code is 200" time="8.350" classname="UaTests"/>
+    <testcase name="Response time is less than 9000ms" time="8.350" classname="UaTests"/>
+    <testcase name="Status code name has string" time="8.350" classname="UaTests"/>
+    <testcase name="Response must be json" time="8.350" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="8.350" classname="UaTests"/>
+    <testcase name="Connection is present" time="8.350" classname="UaTests"/>
+    <testcase name="Body text not include error" time="8.350" classname="UaTests"/>
+    <testcase name="Response must have a body" time="8.350" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="8.350" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Page Size 0 Error" id="5ffb7dc1-e26d-47d3-9e27-13a9e36b1acb" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="0.169">
+    <testcase name="Status code is 500" time="0.169" classname="UaTests"/>
+    <testcase name="Response time is less than 11000ms" time="0.169" classname="UaTests"/>
+    <testcase name="Status code name has string" time="0.169" classname="UaTests"/>
+    <testcase name="Response must be json" time="0.169" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="0.169" classname="UaTests"/>
+    <testcase name="Connection is present" time="0.169" classname="UaTests"/>
+    <testcase name="Body text include error" time="0.169" classname="UaTests"/>
+    <testcase name="Response must have a body" time="0.169" classname="UaTests"/>
+    <testcase name="Response contains message" time="0.169" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Page Size 51 Error" id="7496db14-e9c7-4f3d-a8b6-b6fa8f81ce5f" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="0.138">
+    <testcase name="Status code is 500" time="0.138" classname="UaTests"/>
+    <testcase name="Response time is less than 400ms" time="0.138" classname="UaTests"/>
+    <testcase name="Status code name has string" time="0.138" classname="UaTests"/>
+    <testcase name="Response must be json" time="0.138" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="0.138" classname="UaTests"/>
+    <testcase name="Connection is present" time="0.138" classname="UaTests"/>
+    <testcase name="Body text include error" time="0.138" classname="UaTests"/>
+    <testcase name="Response must have a body" time="0.138" classname="UaTests"/>
+    <testcase name="Response contains message" time="0.138" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Inspections After" id="19c8ad66-74e0-4df3-9992-b812a7f09405" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="0.428">
+    <testcase name="Status code is 200" time="0.428" classname="UaTests"/>
+    <testcase name="Response time is less than 1000ms" time="0.428" classname="UaTests"/>
+    <testcase name="Status code name has string" time="0.428" classname="UaTests"/>
+    <testcase name="Response must be json" time="0.428" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="0.428" classname="UaTests"/>
+    <testcase name="Connection is present" time="0.428" classname="UaTests"/>
+    <testcase name="Body text not include error" time="0.428" classname="UaTests"/>
+    <testcase name="Response must have a body" time="0.428" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="0.428" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Inspections Before" id="98b89726-c561-41a7-9935-4dc1808b14c8" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="16.025">
+    <testcase name="Status code is 200" time="16.025" classname="UaTests"/>
+    <testcase name="Response time is less than 18000ms" time="16.025" classname="UaTests"/>
+    <testcase name="Status code name has string" time="16.025" classname="UaTests"/>
+    <testcase name="Response must be json" time="16.025" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="16.025" classname="UaTests"/>
+    <testcase name="Connection is present" time="16.025" classname="UaTests"/>
+    <testcase name="Body text not include error" time="16.025" classname="UaTests"/>
+    <testcase name="Response must have a body" time="16.025" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="16.025" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Order By ASC" id="b231f4c0-1803-4c24-bc09-22b1c3b0d84e" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="7.830">
+    <testcase name="Status code is 200" time="7.830" classname="UaTests"/>
+    <testcase name="Response time is less than 10000ms" time="7.830" classname="UaTests"/>
+    <testcase name="Status code name has string" time="7.830" classname="UaTests"/>
+    <testcase name="Response must be json" time="7.830" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="7.830" classname="UaTests"/>
+    <testcase name="Connection is present" time="7.830" classname="UaTests"/>
+    <testcase name="Body text not include error" time="7.830" classname="UaTests"/>
+    <testcase name="Response must have a body" time="7.830" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="7.830" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Order By DESC" id="eaedb815-5ddd-4222-861e-3ebf3485921d" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="8.402">
+    <testcase name="Status code is 200" time="8.402" classname="UaTests"/>
+    <testcase name="Response time is less than 10000ms" time="8.402" classname="UaTests"/>
+    <testcase name="Status code name has string" time="8.402" classname="UaTests"/>
+    <testcase name="Response must be json" time="8.402" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="8.402" classname="UaTests"/>
+    <testcase name="Connection is present" time="8.402" classname="UaTests"/>
+    <testcase name="Body text not include error" time="8.402" classname="UaTests"/>
+    <testcase name="Response must have a body" time="8.402" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="8.402" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="By Regulator Name" id="0b684a2e-8dcb-407c-b062-8336c37b93c3" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="1" errors="0" time="10.355">
+    <testcase name="Status code is 200" time="10.355" classname="UaTests"/>
+    <testcase name="Response time is less than 10000ms" time="10.355" classname="UaTests">
+      <failure type="AssertionFailure" message="expected 10355 to be below 10000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f23ee16f-af1e-4332-afa6-ea458a75dd99.]]>
+        <![CDATA[Collection name: UA tests.]]>
+        <![CDATA[Request name: By Regulator Name.]]>
+        <![CDATA[Test description: Response time is less than 10000ms.]]>
+        <![CDATA[Error message: expected 10355 to be below 10000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 10355 to be below 10000
+   at Object.eval sandbox-script.js:2:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="10.355" classname="UaTests"/>
+    <testcase name="Response must be json" time="10.355" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="10.355" classname="UaTests"/>
+    <testcase name="Connection is present" time="10.355" classname="UaTests"/>
+    <testcase name="Body text not include error" time="10.355" classname="UaTests"/>
+    <testcase name="Response must have a body" time="10.355" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="10.355" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Date Range" id="a78f0bbf-43d6-49fc-95fd-322c3dfb7a9d" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="13.984">
+    <testcase name="Status code is 200" time="13.984" classname="UaTests"/>
+    <testcase name="Response time is less than 18000ms" time="13.984" classname="UaTests"/>
+    <testcase name="Status code name has string" time="13.984" classname="UaTests"/>
+    <testcase name="Response must be json" time="13.984" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="13.984" classname="UaTests"/>
+    <testcase name="Connection is present" time="13.984" classname="UaTests"/>
+    <testcase name="Body text not include error" time="13.984" classname="UaTests"/>
+    <testcase name="Response must have a body" time="13.984" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="13.984" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Date Range Error" id="6ba40c82-b64a-40d7-8565-8cd781068520" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="1" errors="0" time="16.020">
+    <testcase name="Status code is 404" time="16.020" classname="UaTests"/>
+    <testcase name="Response time is less than 15000ms" time="16.020" classname="UaTests">
+      <failure type="AssertionFailure" message="expected 16020 to be below 15000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f23ee16f-af1e-4332-afa6-ea458a75dd99.]]>
+        <![CDATA[Collection name: UA tests.]]>
+        <![CDATA[Request name: Date Range Error.]]>
+        <![CDATA[Test description: Response time is less than 15000ms.]]>
+        <![CDATA[Error message: expected 16020 to be below 15000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 16020 to be below 15000
+   at Object.eval sandbox-script.js:2:17).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="16.020" classname="UaTests"/>
+    <testcase name="Response must be json" time="16.020" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="16.020" classname="UaTests"/>
+    <testcase name="Connection is present" time="16.020" classname="UaTests"/>
+    <testcase name="Body text include error" time="16.020" classname="UaTests"/>
+    <testcase name="Response must have a body" time="16.020" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Year 2018" id="4b9b982c-a572-438b-bb71-d2ac1dcd2371" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="9.519">
+    <testcase name="Status code is 200" time="9.519" classname="UaTests"/>
+    <testcase name="Response time is less than 20000ms" time="9.519" classname="UaTests"/>
+    <testcase name="Status code name has string" time="9.519" classname="UaTests"/>
+    <testcase name="Response must be json" time="9.519" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="9.519" classname="UaTests"/>
+    <testcase name="Connection is present" time="9.519" classname="UaTests"/>
+    <testcase name="Body text not include error" time="9.519" classname="UaTests"/>
+    <testcase name="Response must have a body" time="9.519" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="9.519" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Year 2019" id="2d819bad-e63d-4841-b536-1edaac94dfad" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="9.952">
+    <testcase name="Status code is 200" time="9.952" classname="UaTests"/>
+    <testcase name="Response time is less than 15000ms" time="9.952" classname="UaTests"/>
+    <testcase name="Status code name has string" time="9.952" classname="UaTests"/>
+    <testcase name="Response must be json" time="9.952" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="9.952" classname="UaTests"/>
+    <testcase name="Connection is present" time="9.952" classname="UaTests"/>
+    <testcase name="Body text not include error" time="9.952" classname="UaTests"/>
+    <testcase name="Response must have a body" time="9.952" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="9.952" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Year 2023 Error" id="e76c1fb9-b823-4175-846b-72ad30cd65a3" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="0" errors="0" time="14.257">
+    <testcase name="Status code is 404" time="14.257" classname="UaTests"/>
+    <testcase name="Response time is less than 25000ms" time="14.257" classname="UaTests"/>
+    <testcase name="Status code name has string" time="14.257" classname="UaTests"/>
+    <testcase name="Response must be json" time="14.257" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="14.257" classname="UaTests"/>
+    <testcase name="Connection is present" time="14.257" classname="UaTests"/>
+    <testcase name="Body text include error" time="14.257" classname="UaTests"/>
+    <testcase name="Response must have a body" time="14.257" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Year 2017 Error" id="eafea4b4-c063-4441-8e5c-de30f65a454a" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="0" errors="0" time="13.448">
+    <testcase name="Status code is 404" time="13.448" classname="UaTests"/>
+    <testcase name="Response time is less than 25000ms" time="13.448" classname="UaTests"/>
+    <testcase name="Status code name has string" time="13.448" classname="UaTests"/>
+    <testcase name="Response must be json" time="13.448" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="13.448" classname="UaTests"/>
+    <testcase name="Connection is present" time="13.448" classname="UaTests"/>
+    <testcase name="Body text include error" time="13.448" classname="UaTests"/>
+    <testcase name="Response must have a body" time="13.448" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Inspection Date" id="99d6603c-9062-4b31-a0c4-14377cc88a72" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="0" errors="0" time="12.378">
+    <testcase name="Status code is 200" time="12.378" classname="UaTests"/>
+    <testcase name="Response time is less than 15000ms" time="12.378" classname="UaTests"/>
+    <testcase name="Status code name has string" time="12.378" classname="UaTests"/>
+    <testcase name="Response must be json" time="12.378" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="12.378" classname="UaTests"/>
+    <testcase name="Connection is present" time="12.378" classname="UaTests"/>
+    <testcase name="Body text not include error" time="12.378" classname="UaTests"/>
+    <testcase name="Response must have a body" time="12.378" classname="UaTests"/>
+    <testcase name="Response contains current-page" time="12.378" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Inspection Date Error" id="5324eef8-357e-4295-aba2-84a0035f9556" timestamp="2021-12-26T19:27:28.946Z" tests="8" failures="1" errors="0" time="15.092">
+    <testcase name="Status code is 404" time="15.092" classname="UaTests"/>
+    <testcase name="Response time is less than 15000ms" time="15.092" classname="UaTests">
+      <failure type="AssertionFailure" message="expected 15092 to be below 15000">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f23ee16f-af1e-4332-afa6-ea458a75dd99.]]>
+        <![CDATA[Collection name: UA tests.]]>
+        <![CDATA[Request name: Inspection Date Error.]]>
+        <![CDATA[Test description: Response time is less than 15000ms.]]>
+        <![CDATA[Error message: expected 15092 to be below 15000.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 15092 to be below 15000
+   at Object.eval sandbox-script.js:2:23).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="15.092" classname="UaTests"/>
+    <testcase name="Response must be json" time="15.092" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="15.092" classname="UaTests"/>
+    <testcase name="Connection is present" time="15.092" classname="UaTests"/>
+    <testcase name="Body text include error" time="15.092" classname="UaTests"/>
+    <testcase name="Response must have a body" time="15.092" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Inspection By Code" id="195383d4-a4d9-43cd-8eda-e7f4551785ee" timestamp="2021-12-26T19:27:28.946Z" tests="10" failures="0" errors="0" time="6.586">
+    <testcase name="Status code is 200" time="6.586" classname="UaTests"/>
+    <testcase name="Response time is less than 20000ms" time="6.586" classname="UaTests"/>
+    <testcase name="Status code name has string" time="6.586" classname="UaTests"/>
+    <testcase name="Response must be json" time="6.586" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="6.586" classname="UaTests"/>
+    <testcase name="Connection is present" time="6.586" classname="UaTests"/>
+    <testcase name="Body text not include error" time="6.586" classname="UaTests"/>
+    <testcase name="Correct code value" time="6.586" classname="UaTests"/>
+    <testcase name="Correct name value" time="6.586" classname="UaTests"/>
+    <testcase name="Response must have a body" time="6.586" classname="UaTests"/>
+  </testsuite>
+  <testsuite name="Subject By Code" id="a2990a7d-0446-4624-8a82-cba321ac9255" timestamp="2021-12-26T19:27:28.946Z" tests="9" failures="1" errors="0" time="0.132">
+    <testcase name="Status code is 401" time="0.132" classname="UaTests">
+      <failure type="AssertionFailure" message="expected response to have status code 401 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: f23ee16f-af1e-4332-afa6-ea458a75dd99.]]>
+        <![CDATA[Collection name: UA tests.]]>
+        <![CDATA[Request name: Subject By Code.]]>
+        <![CDATA[Test description: Status code is 401.]]>
+        <![CDATA[Error message: expected response to have status code 401 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 401 but got 200
+   at Object.eval sandbox-script.js:1:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 500ms" time="0.132" classname="UaTests"/>
+    <testcase name="Status code name has string" time="0.132" classname="UaTests"/>
+    <testcase name="Response must be json" time="0.132" classname="UaTests"/>
+    <testcase name="Content-Type is present" time="0.132" classname="UaTests"/>
+    <testcase name="Connection is present" time="0.132" classname="UaTests"/>
+    <testcase name="Body text include error" time="0.132" classname="UaTests"/>
+    <testcase name="Response must have a body" time="0.132" classname="UaTests"/>
+    <testcase name="Response contains message" time="0.132" classname="UaTests"/>
+  </testsuite>
+</testsuites>

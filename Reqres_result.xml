@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reqres" tests="15" time="5.659">
+  <testsuite name="GET REQS / Check users list" id="bc9800a7-35b3-4aa1-8bb1-7a77e4d8f133" timestamp="2021-12-26T19:58:32.250Z" tests="9" failures="0" errors="0" time="0.277">
+    <testcase name="Status code is 200" time="0.277" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.277" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.277" classname="Reqres"/>
+    <testcase name="Data contains id=7" time="0.277" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.277" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.277" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.277" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.277" classname="Reqres"/>
+    <testcase name="Response data contains an array" time="0.277" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Single user case" id="b9833e53-c0f3-465d-b7cf-d4d6a15a43d1" timestamp="2021-12-26T19:58:32.250Z" tests="9" failures="0" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.070" classname="Reqres"/>
+    <testcase name="Data contains id=2" time="0.070" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.070" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.070" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.070" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.070" classname="Reqres"/>
+    <testcase name="Person is Janet Weaver" time="0.070" classname="Reqres"/>
+    <testcase name="Response data is object" time="0.070" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Single user not found" id="6c25d0b3-9da9-4723-99e9-145005463a28" timestamp="2021-12-26T19:58:32.250Z" tests="6" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 404" time="0.067" classname="Reqres"/>
+    <testcase name="Status code name is Not Found" time="0.067" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.067" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.067" classname="Reqres"/>
+    <testcase name="Response time is less than 300ms" time="0.067" classname="Reqres"/>
+    <testcase name="Response data is undefined" time="0.067" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Check pantone colors list" id="b87e4a0b-7485-497b-8d39-d4ab5737d1a5" timestamp="2021-12-26T19:58:32.250Z" tests="7" failures="0" errors="0" time="0.076">
+    <testcase name="Status code is 200" time="0.076" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.076" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.076" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.076" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.076" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.076" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.076" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Single pantone color case" id="98d7c8b2-2295-4cd7-8f60-750fd896dbea" timestamp="2021-12-26T19:58:32.250Z" tests="7" failures="0" errors="0" time="0.080">
+    <testcase name="Status code is 200" time="0.080" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.080" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.080" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.080" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.080" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.080" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.080" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Single pantone color not found" id="5eedb729-e69e-4214-badd-2b76639cefe8" timestamp="2021-12-26T19:58:32.250Z" tests="6" failures="0" errors="0" time="0.063">
+    <testcase name="Status code is 404" time="0.063" classname="Reqres"/>
+    <testcase name="Status code name is Not Found" time="0.063" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.063" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.063" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.063" classname="Reqres"/>
+    <testcase name="Response data is undefined" time="0.063" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="GET REQS / Delayed response" id="367fcd1a-08fc-47aa-a839-2d4cebba6922" timestamp="2021-12-26T19:58:32.250Z" tests="7" failures="0" errors="0" time="4.119">
+    <testcase name="Status code is 200" time="4.119" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="4.119" classname="Reqres"/>
+    <testcase name="Body matches string" time="4.119" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="4.119" classname="Reqres"/>
+    <testcase name="Connection is present" time="4.119" classname="Reqres"/>
+    <testcase name="Response time is less than 5000ms" time="4.119" classname="Reqres"/>
+    <testcase name="Response must be json" time="4.119" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="POST REQS / Create user" id="2f69894e-aaaf-4f62-b725-c045ddc210cc" timestamp="2021-12-26T19:58:32.250Z" tests="8" failures="0" errors="0" time="0.103">
+    <testcase name="Status code is 201" time="0.103" classname="Reqres"/>
+    <testcase name="Status code name is Created" time="0.103" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.103" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.103" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.103" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.103" classname="Reqres"/>
+    <testcase name="Successful POST request" time="0.103" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.103" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="POST REQS / Successful register" id="daa16775-5878-4c53-ba73-8c0e0b1134b8" timestamp="2021-12-26T19:58:32.250Z" tests="7" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.115" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.115" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.115" classname="Reqres"/>
+    <testcase name="Response time is less than 700ms" time="0.115" classname="Reqres"/>
+    <testcase name="Successful POST request" time="0.115" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.115" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="POST REQS / Unsuccessful register" id="8c0213e9-29b6-4438-aacd-573d47df7234" timestamp="2021-12-26T19:58:32.250Z" tests="8" failures="0" errors="0" time="0.103">
+    <testcase name="Status code is 400" time="0.103" classname="Reqres"/>
+    <testcase name="Status code name is Bad Request" time="0.103" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.103" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.103" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.103" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.103" classname="Reqres"/>
+    <testcase name="Unsuccessful POST request" time="0.103" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.103" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="POST REQS / Successful login" id="e4506ba9-3262-4311-a65a-792307080777" timestamp="2021-12-26T19:58:32.250Z" tests="8" failures="0" errors="0" time="0.108">
+    <testcase name="Status code is 200" time="0.108" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.108" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.108" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.108" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.108" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.108" classname="Reqres"/>
+    <testcase name="Successful POST request" time="0.108" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.108" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="POST REQS / Unsuccessful login" id="66286386-51f8-4a3c-88fb-9327f0ed6df7" timestamp="2021-12-26T19:58:32.250Z" tests="8" failures="0" errors="0" time="0.135">
+    <testcase name="Status code is 400" time="0.135" classname="Reqres"/>
+    <testcase name="Status code name is Bad Request" time="0.135" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.135" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.135" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.135" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.135" classname="Reqres"/>
+    <testcase name="Unsuccessful POST request" time="0.135" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.135" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="PUT REQ / Update user" id="f4c470c7-13a9-4f2a-9525-25433adba47b" timestamp="2021-12-26T19:58:32.250Z" tests="7" failures="0" errors="0" time="0.118">
+    <testcase name="Status code is 200" time="0.118" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.118" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.118" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.118" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.118" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.118" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.118" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="PATCH REQ / Another update user case" id="707122f6-caee-4d33-adc7-dcfd18572b89" timestamp="2021-12-26T19:58:32.250Z" tests="8" failures="0" errors="0" time="0.121">
+    <testcase name="Status code is 200" time="0.121" classname="Reqres"/>
+    <testcase name="Status code name is OK" time="0.121" classname="Reqres"/>
+    <testcase name="Body matches string" time="0.121" classname="Reqres"/>
+    <testcase name="Content-Type is present" time="0.121" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.121" classname="Reqres"/>
+    <testcase name="Response time is less than 1000ms" time="0.121" classname="Reqres"/>
+    <testcase name="Successful PATCH request" time="0.121" classname="Reqres"/>
+    <testcase name="Response must be json" time="0.121" classname="Reqres"/>
+  </testsuite>
+  <testsuite name="DELETE REQ / Delete case" id="6fd47b80-fd86-4b7f-ae53-202e69e367a2" timestamp="2021-12-26T19:58:32.250Z" tests="4" failures="0" errors="0" time="0.104">
+    <testcase name="Status code is 204" time="0.104" classname="Reqres"/>
+    <testcase name="Status code name is No Content" time="0.104" classname="Reqres"/>
+    <testcase name="Connection is present" time="0.104" classname="Reqres"/>
+    <testcase name="Response time is less than 500ms" time="0.104" classname="Reqres"/>
+  </testsuite>
+</testsuites>
